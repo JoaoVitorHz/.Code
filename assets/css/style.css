@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins','Arial';
+}
+/* Configuração de header */
+header{
+    height: 100px;
+}
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 945px;
+    height: 100px;
+    margin: auto;
+}
+/* LOGO */
+.logo{
+    font-size: 22px;
+    color: #999;
+}
+
+/* Menus de navegação  */
+.menu nav ul{
+    display: flex;
+    list-style: none;
+}
+.menu nav ul li a{
+    margin-right:30px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none; 
+    color: #0187a4;
+    font-weight: 400;
+    font-size: 17px;
+}
+.menu nav ul li a:hover{
+    background-color:#0187a4;
+    color: #FFF;
+    border-radius: 20px;
+} 
+
+/* Section 1 */
+#section1{
+    height: calc(100vh - 100px);
+    background-color:#999;
+    overflow: hidden;
+}
+
+
+/* SLIDER */
+.slider--width{
+    display: flex;
+    height: 100%;
+    width: calc(100vw * 3);
+    background-color: #0187a4;
+    transition: all ease 0.7s;
+}
+.slider--item{
+    width: 100vw;
+    height: 100%;
+    background-color: green;
+}
+
+.slider--controls{
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.slider--control{
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: 600;
+    color: #0187a4;
+}
