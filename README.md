@@ -6,3 +6,6 @@ Lista de Tarefas
 ( ) - Section Contato <br>
 ( ) - Adicionar scroll Suave <br>
 ( ) - Adicionar Animações
+( ) - Verificador de Formulario
+( ) - Responsividade 
+( ) - Hospedar na internet
