@@ -5,17 +5,20 @@
     font-family: 'Poppins','Arial';
 }
 
+body{
+    overflow-x: hidden;
+}
 html{
     scroll-behavior: smooth;
 }
 /* Configuração de header */
 header{
-    height: 100px;
+    height: 70px;
 }
 .menu_header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    line-height: 70px;
 
     width: 945px;
     height: 100px;
@@ -48,7 +51,8 @@ header{
 
 /* Section 1 */
 #section1{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
+    width: 100vw;
     background-color:#999;
     overflow: hidden;
 }
@@ -83,11 +87,11 @@ header{
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
-
+    margin-right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border: 1px solid #0187a4;
     font-size: 50px;
     font-weight: 600;
     color: #0187a4;
@@ -181,12 +185,14 @@ header{
     display: inline-block;
     width: 50%;
     height: 100%;
+    cursor: pointer;
 }
 .desenvolvimento .e-Commerce{
     display: inline-block;
     width: 50%;
     height: 100%;
     border-left: 1px solid #ccc;
+    cursor: pointer;
 }
 .desenvolvimento a{
     display: block;
@@ -221,6 +227,7 @@ header{
     color: #444;
     line-height: 22px;
     margin-bottom: 20px;
+    transition: all ease 0.7s;
 }
 .leftside .buttonRed{
     display: inline-block;

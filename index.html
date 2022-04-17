@@ -29,9 +29,9 @@
             <div class="slider--control" onclick="goNext()">></div>
         </div>
         <div class="slider--width">
-            <div class="slider--item" style="background-color: blue;"></div>
-            <div class="slider--item" style="background-color: green;"></div>
-            <div class="slider--item" style="background-color: orange;"></div>
+            <div class="slider--item" style="background-image: url(assets/images/Code.jpg); background-size:cover;"></div>
+            <div class="slider--item" style="background-image: url(assets/images/WebSites.jpg); background-size:cover;"></div>
+            <div class="slider--item" style="background-image: url(assets/images/e-commerce.jpg); background-size:cover;"></div>
         </div>
     </section>
     <!-- Site Anterior -->
@@ -108,17 +108,17 @@
                 <p>A internte é poderosa, com ela podemos executar diferentes tarefas de forma simple e tranquila. Basta estar conectado e pronto! Um mundo sem fim pode ser acessado do seu computador, device, tablet ou rélogio. Estar na internet é estar cercado de possibilidade relacionados ao que você quiser e é com esse pensamento qua a .Code que tornar a sua empresa uma das possibilidades encontrada na internet, não para nós e não para você e sim para seu cliente, que é uma dessas pessoas que está procurando o seu segmento da internet.</p>
             </div>
             <div class="desenvolvimento">
-                <div class="webSites">
+                <div class="webSites" onclick="sites()">
                    <a>Desenvolvimento de WebSites</a>
                 </div>
-                <div class="e-Commerce">
+                <div class="e-Commerce" onclick="ecommerce()">
                     <a>Desenvolvimento de e-Commerce</a>
                 </div>
             </div>
             <div class="textoComputador">
                 <div class="leftside">
-                    <h1>Desenvolvimento de Web Sites</h1>
-                    <p>Em tempos remotos um web site realmente era considerado uma página na web, sua estrutura era extremamente simples, com poucos ou nenhum conceito de desing e sem planejamento voltados para acessibilidade e usabilidade. <br/>
+                    <h1 id="h1Sites">Desenvolvimento de Web Sites</h1>
+                    <p id="pSites">Em tempos remotos um web site realmente era considerado uma página na web, sua estrutura era extremamente simples, com poucos ou nenhum conceito de desing e sem planejamento voltados para acessibilidade e usabilidade. <br/>
                         <br/>
                         Não é mais possível dizer que um web site são apenas páginas na interntet, hoje um site deve ser enxergados como um sistema web, que pode ter níveis varíados de desenvolvimento. Hoje é necessario utilizar conhecimento de áreas diferentes para formar um projeto completo.</p>
                     <a class="buttonRed" href="#section4">Saiba Mais</a>
@@ -142,11 +142,11 @@
                     <div class="textcontato1">
                         <p class="textocontato">Entre em contato ou <m>solicite um orçamento</m>. Estamos sempre dispostos a te atender e retirar qualquer dúvida que possa surgir. Se você chegou até aqui,  mas ainda não conhece de forma aprofundada nossa empresa ou nossos serviços, fique a vontade em clicar nas opções abaixo e conhecer os detalhes que mai lhe interessa.
                         </p>
-                        <a class="buttonLink" href=""><button>Quem Somos</button></a> <br/>
-                        <a class="buttonLink" href=""><button>Desenvolvimento de Web Sites</button></a> <br/>
-                        <a class="buttonLink" href=""><button>Desenvolvimento de e-Commerce</button></a> 
-                        <p class="numero">11 98490 9312</p>
-                        <a class="email" href="">contato@agenciadotcode.com.br</a>
+                        <a class="buttonLink" href="#section2"><button>Quem Somos</button></a> <br/>
+                        <a class="buttonLink" href="#section3" onclick="sites()"><button>Desenvolvimento de Web Sites</button></a> <br/>
+                        <a class="buttonLink" href="#section3" onclick="ecommerce()"><button>Desenvolvimento de e-Commerce</button></a> 
+                        <p class="numero">(11) 98490-9312</p>
+                        <a class="email"><u>contato@agenciadotcode.com.br</u></a>
                     </div>
                 </div>
                 <div class="rightside">
